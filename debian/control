@@ -1,0 +1,20 @@
+Source: mipaquete
+Section: admin
+Priority: optional
+Maintainer: Raul Rodrigo Segura <raurodse@gmail.com>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+Standards-Version: 4.6.2
+Homepage: https://necos.es
+#Vcs-Browser: https://salsa.debian.org/debian/mipaquete
+#Vcs-Git: https://salsa.debian.org/debian/mipaquete.git
+
+Package: mipaquete
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+Description: Description 
+ Long description
