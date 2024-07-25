@@ -16,6 +16,8 @@
 
 
 %:
+	uscan -dd
+	tar --strip-components=1 -xf ../*.orig.tar.gz -C .
 	dh $@
 
 
